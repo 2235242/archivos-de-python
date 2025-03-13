@@ -1,0 +1,10 @@
+##contabilizacion de horas, minutos, segundos
+print("bienvenido al programa")
+print("por favor ingrese la cantidad de segundos que decea")
+segundos_totales= int(input())
+horas= (segundos_totales / 3.600)
+minutos=(segundos_totales / 60)
+segundos= (segundos_totales)
+print("horas que equivalen a esos segundos:", horas)
+print("minutos que hay en esos segundos:", minutos)
+print("segundos:", segundos)
